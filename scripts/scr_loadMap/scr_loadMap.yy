@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_getMap",
+  "%Name":"scr_loadMap",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_getMap",
+  "name":"scr_loadMap",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -28,6 +28,7 @@ else if(up) {
 if(fire && input_delay <= 0) {
     scr_move(dir);
     input_delay = input_delay_total;
-} else if (input_delay > 0) {
+}
+if (input_delay > 0) {
     input_delay -= 1;
 }

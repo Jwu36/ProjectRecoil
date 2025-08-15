@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_blockParent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_stageButton1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_blockParent",
+  "name":"obj_stageButton1",
   "overriddenProperties":[],
   "parent":{
-    "name":"blocks",
-    "path":"folders/Objects/blocks.yy",
+    "name":"title",
+    "path":"folders/Objects/title.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"stage1",
+    "path":"sprites/stage1/stage1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

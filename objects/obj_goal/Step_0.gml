@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-getHit = false;
+if(place_meeting(x,y,obj_player)){
+	scr_gameWin();
+	instance_destroy();
+}

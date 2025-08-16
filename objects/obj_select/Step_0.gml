@@ -5,7 +5,8 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x > x && mouse_x < x + 64 &&
         mouse_y > y && mouse_y < y + 64) {
         // 버튼 클릭됨
-		global.STAGE = 1;
-        room_goto_next();
+		instance_create_depth(x,y+100,0,obj_stageButton1);
+		//global.STAGE = 1;
+        //room_goto_next();
     }
 }

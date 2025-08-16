@@ -8,8 +8,8 @@
   "name":"obj_goal",
   "overriddenProperties":[],
   "parent":{
-    "name":"blocks",
-    "path":"folders/Objects/blocks.yy",
+    "name":"areas",
+    "path":"folders/Objects/areas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GoalDebug",
-    "path":"sprites/GoalDebug/GoalDebug.yy",
+    "name":"spr_goal",
+    "path":"sprites/spr_goal/spr_goal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

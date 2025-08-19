@@ -12,7 +12,7 @@ function scr_move(dir) {
         case 2: dx = global.BLOCKSIZE;  break; // 오른쪽
         case 3: dy = global.BLOCKSIZE;  break; // 아래
     }
-	
+	scr_getHit();
         // 총알 생성
     if (obj_player) {
         var bullet = instance_create_layer(x , y , "Bullets", obj_bullet);

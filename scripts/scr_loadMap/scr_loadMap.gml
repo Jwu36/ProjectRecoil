@@ -7,16 +7,16 @@ function scr_loadMap(level){
 
 	if (level == 1) {
 	    return [
-   [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,obj_player,noone,noone,obj_unbreakable,noone,noone,noone,noone,noone,obj_unbreakable,noone,noone,noone,noone],
-    [noone,noone,obj_unbreakable,noone,noone,noone,obj_unbreakable,noone,obj_unbreakable,noone,noone,noone,obj_unbreakable,noone,noone],
-    [noone,noone,noone,noone,obj_unbreakable,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,obj_unbreakable,noone,obj_unbreakable,obj_unbreakable,noone,noone,obj_unbreakable,obj_unbreakable,noone,obj_unbreakable,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,obj_unbreakable,noone,obj_unbreakable,noone,obj_unbreakable,obj_unbreakable,noone,noone,obj_unbreakable,noone,obj_unbreakable,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,obj_unbreakable,noone,noone,noone,obj_goal,noone],
-    [noone,noone,noone,obj_unbreakable,obj_unbreakable,noone,obj_unbreakable,noone,obj_unbreakable,obj_unbreakable,noone,obj_unbreakable,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone]
+	  [obj_player, obj_unbreakable, noone, noone, noone, obj_unbreakable, noone, noone, noone, obj_unbreakable, noone, noone, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, obj_goal],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone, obj_unbreakable, noone],
+    [noone, obj_wood, noone, obj_wood, noone, obj_wood, noone, obj_wood, noone, obj_wood, noone, obj_wood, noone, obj_wood, noone],
+    [noone, noone, noone, obj_unbreakable, noone, noone, noone, obj_unbreakable, noone, noone, noone, obj_unbreakable, noone, noone, noone]
 		];
 	}
 	

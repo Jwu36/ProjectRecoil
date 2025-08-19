@@ -3,7 +3,7 @@
 function scr_gameWin(){
 	var clear = instance_create_layer(window_get_width()/2, window_get_height()/3, "Menu",obj_clear);
 	with(obj_player){
-		instance_destroy();
+		instance_deactivate_object(obj_player);
 	}
 	instance_create_layer(clear.x - window_get_width()/8, window_get_height()/2, "Menu", obj_gotoTitle);
 	instance_create_layer(clear.x , window_get_height()/2, "Menu", obj_retry);

@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fail",
-  "eventList":[],
+  "%Name":"obj_wood",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_fail",
+  "name":"obj_wood",
   "overriddenProperties":[],
   "parent":{
-    "name":"stageOver",
-    "path":"folders/Objects/stageOver.yy",
+    "name":"blocks",
+    "path":"folders/Objects/blocks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_blockParent",
+    "path":"objects/obj_blockParent/obj_blockParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fail",
-    "path":"sprites/spr_fail/spr_fail.yy",
+    "name":"spr_wooden",
+    "path":"sprites/spr_wooden/spr_wooden.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -37,17 +37,17 @@ function scr_loadMap(level){
 	
 	if (level == 3) {
 		return [
-		 [obj_player,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
-    [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone]
-		];
+   [obj_lava,obj_player,obj_lava,noone,obj_lava,noone,obj_lava,noone,obj_lava,noone,obj_wood,obj_goal,obj_lava,obj_wall,obj_lava],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,obj_lava,obj_bomb,obj_wall,obj_wood,obj_wall],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,obj_lava,obj_lava,obj_lava,obj_wall,obj_lava],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,obj_bomb,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+   [obj_lava,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone],
+];
 	}
 	return [];
 }

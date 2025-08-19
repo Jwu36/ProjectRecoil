@@ -34,7 +34,7 @@ var dir_y = lengthdir_y(1, dir);
 
 // 4. 단계별로 전진하며 가장 가까운 블록 찾기
 var step_size = 8;  // 작은 단위로 체크 (정밀도 조정 가능)
-var max_distance = 1000;
+var max_distance = 10000;
 var closest_block = noone;
 
 for (var dist = step_size; dist <= max_distance; dist += step_size) {

@@ -4,11 +4,7 @@ if (mouse_check_button_pressed(mb_left)) {
     if (mouse_x > x - 32 && mouse_x < x + 32 &&
         mouse_y > y - 32 && mouse_y < y + 32) {
         // 버튼 클릭됨
-		with (all) {
-           if (object_index != obj_game) { // obj_game은 안 지움
-            instance_destroy();
-			 }
-		}
-	 instance_create_depth(0, 0, 0, obj_gameStage);
+		global.STAGE = 2;
+        room_goto(Room2);
     }
 }

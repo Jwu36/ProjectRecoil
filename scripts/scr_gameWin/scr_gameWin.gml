@@ -7,7 +7,7 @@ function scr_gameWin(){
 	}
 	instance_create_layer(clear.x - window_get_width()/8, window_get_height()/2, "Menu", obj_gotoTitle);
 	instance_create_layer(clear.x , window_get_height()/2, "Menu", obj_retry);
-	if(global.STAGE != 2) {
+	if(global.STAGE != 3) {
 		instance_create_layer(clear.x + window_get_width()/8, window_get_height()/2, "Menu", obj_next);
 	}
 }

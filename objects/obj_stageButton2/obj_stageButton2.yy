@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_unbreakable",
-  "eventList":[],
+  "%Name":"obj_stageButton2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_unbreakable",
+  "name":"obj_stageButton2",
   "overriddenProperties":[],
   "parent":{
-    "name":"blocks",
-    "path":"folders/Objects/blocks.yy",
+    "name":"title",
+    "path":"folders/Objects/title.yy",
   },
-  "parentObjectId":{
-    "name":"obj_blockParent",
-    "path":"objects/obj_blockParent/obj_blockParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"stage2",
+    "path":"sprites/stage2/stage2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

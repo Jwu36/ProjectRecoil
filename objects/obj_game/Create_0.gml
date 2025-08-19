@@ -6,3 +6,6 @@ global.STAGE = 0;
 
 global.MAPSIZEX = global.BLOCKSIZE * 14;
 global.MAPSIZEY = global.BLOCKSIZE * 9;
+
+ispause = false;
+stageEnd = false;

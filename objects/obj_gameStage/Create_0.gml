@@ -4,6 +4,8 @@
 global.BLOCKSIZE = 64;
 show_debug_message("obj_gameStage created");
 
+with(obj_game) stageEnd = false;
+
 var map = scr_loadMap(global.STAGE); // 1번 맵 불러오기
 
 for (var dy = 0; dy < array_length(map); dy++) {

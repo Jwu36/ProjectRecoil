@@ -5,6 +5,7 @@ function scr_gameWin(){
 	with(obj_player){
 		instance_deactivate_object(obj_player);
 	}
+	with(obj_game) stageEnd = true;
 	instance_create_layer(clear.x - window_get_width()/8, window_get_height()/2, "Menu", obj_gotoTitle);
 	instance_create_layer(clear.x , window_get_height()/2, "Menu", obj_retry);
 	if(global.STAGE != 3) {

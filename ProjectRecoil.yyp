@@ -77,7 +77,7 @@
     {"id":{"name":"scr_getHit","path":"scripts/scr_getHit/scr_getHit.yy",},},
     {"id":{"name":"scr_loadMap","path":"scripts/scr_loadMap/scr_loadMap.yy",},},
     {"id":{"name":"scr_move","path":"scripts/scr_move/scr_move.yy",},},
-    {"id":{"name":"scr_toBlockCoordinate","path":"scripts/scr_toBlockCoordinate/scr_toBlockCoordinate.yy",},},
+    {"id":{"name":"scr_pause","path":"scripts/scr_pause/scr_pause.yy",},},
     {"id":{"name":"bombEffect","path":"sprites/bombEffect/bombEffect.yy",},},
     {"id":{"name":"BulletDebug","path":"sprites/BulletDebug/BulletDebug.yy",},},
     {"id":{"name":"EnemyDebug","path":"sprites/EnemyDebug/EnemyDebug.yy",},},

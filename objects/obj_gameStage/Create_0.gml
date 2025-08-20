@@ -3,6 +3,7 @@
 
 global.BLOCKSIZE = 64;
 show_debug_message("obj_gameStage created");
+audio_play_sound(snd_select, 1, false);
 
 with(obj_game) stageEnd = false;
 

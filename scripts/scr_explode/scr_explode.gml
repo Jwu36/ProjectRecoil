@@ -11,6 +11,7 @@ function scr_explode(x, y){
 	// 우
 	instance_create_layer(x + tile, y, "Player", obj_explosion);
 	
+	audio_play_sound(snd_explosion, 1, false);
 	 // obj_blockParent를 부모로 갖는 객체들 검사 및 연쇄반응 설정
     // 위쪽
     var block_inst = instance_position(x, y - tile, obj_blockParent);

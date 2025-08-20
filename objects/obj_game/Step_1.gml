@@ -9,6 +9,7 @@ if (keyboard_check_pressed(ord("R")) && global.STAGE > 0) {
 	}
  instance_create_depth(0, 0, 0, obj_gameStage);
 }
+
 if (keyboard_check_pressed(vk_escape) && global.STAGE > 0 && stageEnd == false) {
 	if(ispause == false) {
 		scr_pause();
